@@ -1,0 +1,8 @@
+{
+  "name": "silicat-proxy",
+  "version": "1.0.0",
+  "description": "Forwards silicat.ddns.net to the home server's Tailscale Funnel address",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=18" }
+}
