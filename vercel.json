@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "/map.json"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "https://silinet.tail719a6d.ts.net/$1"
+    }
+  ]
+}
